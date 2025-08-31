@@ -1,0 +1,13 @@
+{
+  "name": "discord-ticket-bot",
+  "version": "1.0.0",
+  "description": "Sistema de tickets completo para Discord",
+  "main": "index.js",
+  "author": "github.com/lzfelipealves",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.22.1",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  }
+}

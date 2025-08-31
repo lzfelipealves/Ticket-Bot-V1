@@ -1,0 +1,76 @@
+{ "token": "TOKEN DO BOT", 
+"guildId": "ID DO SERVIDOR DO DISCORD", 
+"clientId": "APP ID DO BOT", 
+"categories": { 
+  "purchases": "ID CATEGORIA COMPRAS", 
+  "support": "ID CATEGORIA SUPORTE", 
+  "questions": "ID CATEGORIA DUVIDAS" 
+},
+
+  "menuEmbed": {
+    "title": "Ticket System",
+    "description": "Selecione abaixo a categoria do seu ticket:",
+    "color": "#2f3136",
+    "thumbnail": {
+      "url": "https://NAODEIXESEMLINK.com/"
+    },
+    "image": {
+      "url": "https://NAODEIXESEMLINK.com/"
+    },
+    "footer": {
+      "text": "Developed By : lz.alvesx",
+      "icon_url": "https://NAODEIXESEMLINK.com/"
+    }
+  },
+
+  "transcript": {
+    "generateFile": true
+  },
+
+  "ticketEmbed": {
+    "title": "🎟️ Ticket - {type}",
+    "description": "**Obrigado por abrir um ticket!**\n\n🔔 Nossa equipe irá responder o mais rápido possível.\n\n**Opções disponíveis:**\n\n🔑 **Assumir** → Um staff pode assumir o atendimento\n❌ **Deletar** → Deleta este ticket\n📑 **Transcript** → Gera um log completo da conversa\n\n> Por favor, descreva seu problema abaixo com o máximo de detalhes.",
+    "color": "#2b2d31"
+  },
+
+  "menu": {
+    "placeholder": "Escolha uma categoria...",
+    "options": [
+      {
+        "label": "🛒 Purchases",
+        "description": "Abrir um ticket para compras",
+        "value": "purchases"
+      },
+      {
+        "label": "🛠️ Support",
+        "description": "Abrir um ticket para suporte",
+        "value": "support"
+      },
+      {
+        "label": "❓ Questions",
+        "description": "Abrir um ticket para dúvidas",
+        "value": "questions"
+      }
+    ]
+  },
+
+  "buttons": [
+    {
+      "label": "Assumir",
+      "style": 1,
+      "customId": "claim_ticket"
+    },
+    {
+      "label": "Transcript",
+      "style": 2,
+      "customId": "transcript_ticket"
+    },
+    {
+      "label": "Deletar",
+      "style": 4,
+      "customId": "delete_ticket"
+    }
+  ],
+
+  "logChannelId": "ID CANAL DE LOGS"
+}
