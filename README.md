@@ -8,6 +8,8 @@ Instalar as dependências: Execute npm install discord.js para instalar a biblio
 
 Configurar o bot: Abra o arquivo config.json e preencha com as informações do seu servidor e bot. Inclua o token do bot, IDs do servidor e canais, categorias de tickets, canal de logs, cores e textos das embeds, e configure os botões.
 
+Execute node deploy-commands.js no terminal para registrar os comandos
+
 Rodar o bot: Execute o arquivo start.bat
 
 Uso: No Discord, vá para o canal desejado e execute o comando /ticket para setar o painel
